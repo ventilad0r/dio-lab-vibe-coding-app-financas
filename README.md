@@ -1,7 +1,45 @@
-# Entregáveis do projeto 
+<div align="center">
 
-## Prompt final 
-PRD refinado com o Copilot 
+# 💰 Agente Financeiro 💰
+### App de Finanças Pessoais com Vibe Coding (Copilot + Lovable)
+
+[![DIO](https://img.shields.io/badge/DIO-Bootcamp%20CAIXA-blueviolet)](https://www.dio.me/bootcamp/caixa-inteligencia-artificial-na-pratica)
+![Status](https://img.shields.io/badge/status-MVP-success)
+![Made with AI](https://img.shields.io/badge/made%20with-IA%20%F0%9F%A4%96-blue)
+
+> Um app de finanças pessoais baseado em conversa: registre gastos/receitas, crie metas, veja relatórios e receba alertas — com mínima entrada manual.
+
+</div>
+
+---
+
+## 🔗 Demo (resultado final)
+- **Aplicação online:** https://simple-spent-chat.lovable.app
+
+- **Print de tela:** https://github.com/user-attachments/assets/6fd9ccca-cf04-4da9-9a1d-2186e3bebd5d</a>
+
+---
+
+## 📌 Resumo do app (o que ele faz)
+O **Agente Financeiro** é um app de finanças pessoais baseado em conversa que permite **registrar gastos e receitas em linguagem natural**, consultar **resumos do mês**, criar e acompanhar **metas**, visualizar **transações e relatórios**, além de receber **alertas financeiros**. A experiência é focada em reduzir esforço do usuário com **atalhos de ação**, confirmação rápida e, no MVP, pode incluir **importação opcional de transações via SMS/notificações**, **categorização automática** e **recomendações educativas**.
+
+---
+
+## ✨ Funcionalidades (MVP)
+- 💬 **Chat com IA** para registrar despesas e receitas (linguagem natural)
+- ⚡ **Atalhos rápidos**: registrar gasto, registrar receita, ver resumo, criar meta
+- 🧾 **Histórico de transações** com visualização e organização
+- 🎯 **Metas financeiras** por categoria e acompanhamento de progresso
+- 📊 **Relatórios** simples (por período/categoria)
+- 🔔 **Alertas** (vencimentos e variações de consumo)
+- 🔐 **Privacidade**: exportar dados e excluir conta/dados
+- 📩 *(Opcional no MVP)* **Importação automática** via SMS/notificações com revisão (Confirmar/Editar/Ignorar)
+
+---
+
+## 🧠 Prompt final (PRD) — entregue para a IA (Copilot/Lovable)
+> Abaixo está o **prompt final** usado como PRD refinado para construir o app.
+
 ```markdown
 Você é um Product Builder. Crie um aplicativo móvel de Finanças Pessoais orientado por conversa (chat) com importação opcional de transações via SMS/notificações.
 NOME DO APP
@@ -17,7 +55,7 @@ MOEDA E LOCAL
 - Idioma: pt-BR
 CATEGORIAS PADRÃO (MVP)
 - Categorias: Alimentação, Transporte, Moradia, Saúde, Lazer, Educação, Contas, Assinaturas, Transferências, Investimentos, Outros
-	- Usuário deve poder criar, excluir, consultar e alterar categorias
+    - Usuário deve poder criar, excluir, consultar e alterar categorias
 ESCOPO (MVP)
 MUST:
 1) Onboarding com consentimentos e permissões (SMS/notificação opcional).
@@ -58,26 +96,3 @@ VALIDAÇÃO
 ENTREGA
 - Gere estrutura do app, modelo de dados, telas e fluxos.
 - Tom educativo e português do Brasil.
-```
-
-## Interações com o Lovable
-> Colei o PRD gerado pelo promt final: (PRD)
-
-> Colei novamente o texto do PRD no chat do Lovable. Ele retornou com a informação de que o app já está construído com as funcionalidades base e disse que ia completar as telas que falta: **Revisar importações**, **Alertas & Contas Recorrentes** e **Detalhe de Transação**.
-
-<img src="https://github.com/user-attachments/assets/6fd9ccca-cf04-4da9-9a1d-2186e3bebd5d" width="400" />
-
-## Link do resultado final
-https://simple-spent-chat.lovable.app
-
-## Resumo do app
-O Agente Financeiro é um app de finanças pessoais baseado em conversa que permite registrar gastos e receitas em linguagem natural, consultar resumos do mês, criar e acompanhar metas, visualizar transações e relatórios, além de receber alertas financeiros. A experiência é focada em reduzir esforço do usuário com atalhos de ação, confirmação rápida e, no MVP, pode incluir importação opcional de transações via SMS/notificações, categorização automática e recomendações educativas.
-
-## Reflexão sobre o processo
-Usei o Loveable pelo celular e não ficou claro pra mim que a ferramenta estava trabalhando no meu prompt e acabei mandando o mesmo comando duas vezes, o que consumiu os créditos gratuitos do dia. 
-Mesmo assim, repetir o comando teve bons frutos porque a aplicação gerou telas que estavam faltando.
-Tenho a intenção de diariamente conversar com a Loveable e refinar o app
-
-## 💬 Conclusão
-
-O desafio me permitiu vivenciar na prática o vibecoding com ferramentas gratuitas e gerar artefatos sem conhecer linguagens de programação. Com as portas abertas agora é atuar e refinar a aplicação.
